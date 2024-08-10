@@ -2,7 +2,8 @@
     config(
         alias = 'declined_amounts', 
         materialized = 'view',
-        schema = 'financial'
+        schema = 'financial',
+		tags=["mart"]
     )
 }}
 

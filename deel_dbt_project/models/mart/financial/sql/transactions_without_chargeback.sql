@@ -2,7 +2,8 @@
     config(
         alias = 'transactions_without_chargeback', 
         materialized = 'view',
-        schema = 'financial'
+        schema = 'financial',
+		tags=["mart"]
     )
 }}
 

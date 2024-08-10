@@ -3,9 +3,9 @@ version: 2
 sources:
   - name: raw_globepay
     description: "Source data at raw layer."
-    schema: public_raw
+    schema: RAW
     tables:      
-    - name: acceptance_report
+    - name: ACCEPTANCE_REPORT
       description: "Raw data from Globepay acceptance transactions file."
       columns:
         - name: external_ref
@@ -30,7 +30,7 @@ sources:
           description: "The three-character ISO currency code."
         - name: rates
           description: "The exchange rate used. Funds are settled to you in USD."
-    - name: chargeback_report
+    - name: CHARGEBACK_REPORT
       description: "Raw data from Globepay chargeback report file."
       columns:
         - name: external_ref

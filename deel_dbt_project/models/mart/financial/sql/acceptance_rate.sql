@@ -2,7 +2,8 @@
     config(
         alias = 'acceptance_rate', 
         materialized = 'view',
-        schema = 'financial'
+        schema = 'financial',
+		tags=["mart"]
     )
 }}
 
