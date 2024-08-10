@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: acceptance_with_chargeback
+    description: >-
+      Intermediate table that joins data from staging.stg_acceptance and staging.stg_chargeback. 
+      This table only includes the necessary columns to answer the requests.
+      It also contains the currency rates structured for analysis.
+
+    columns:
+      - name: transaction_id
+        description: '{{ doc( "external_ref" ) }}'
+
+      - name: is_chargeback
+        description: '{{ doc( "chargeback" ) }}'
+
+      - name: occured_at
+        description: '{{ doc( "occured_at" ) }}'
+
+      - name: state
+        description: '{{ doc( "state" ) }}'
+
+      - name: cvv_provided
+        description: Identify if CVV is provided.
+
+      - name: amount
+        description: "The amount that has been charged from the card."
+
+      - name: country
+        description: '{{ doc( "country" ) }}'
+
+      - name: currency
+        description: "The three-character ISO currency code."
+      
+      - name: rates
+        description: "The exchange rate used. Funds are settled to you in USD."
+      
+      - name: eur_rate
+        description: "The exchange rate used is in EUR."
+
+      - name: gbp_rate
+        description: "The exchange rate used is in GBP."
+      
+      - name: mxn_rate
+        description: "The exchange rate used is in MXN."
+
+      - name: sgd_rate
+        description: "The exchange rate used is in SGD."
+      
+      - name: usd_rate
+        description: "The exchange rate used is in USD."
+
+      - name: aud_rate
+        description: "The exchange rate used is in AUD."
+      
+      - name: cad_rate
+        description: "The exchange rate used is in CAD."

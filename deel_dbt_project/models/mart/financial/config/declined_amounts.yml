@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: declined_amounts
+    description: "List of countries where the amount of declined transactions went over $25M"
+
+    columns:
+      - name: country
+        description: '{{ doc( "country" ) }}'
+      
+      - name: total_amount
+        description: "The amount that has been charged from the card."

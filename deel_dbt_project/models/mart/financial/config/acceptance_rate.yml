@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: acceptance_rate
+    description: "Acceptance rate percentage over time, accepted transactions compared to the total number of transactions on each day."
+    columns:
+      - name: transation_day
+        description: Date reference. It has daily granularity.
+
+      - name: acceptance_rate
+        description: Rate of acceptance.
+
+        

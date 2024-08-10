@@ -1,0 +1,43 @@
+version: 2
+
+sources:
+  - name: raw_globepay
+    description: "Source data at raw layer."
+    schema: public_raw
+    tables:      
+    - name: acceptance_report
+      description: "Raw data from Globepay acceptance transactions file."
+      columns:
+        - name: external_ref
+          description: '{{ doc( "external_ref" ) }}'
+        - name: status
+          description: "Transaction status."
+        - name: source
+          description: "Source of the transaction."
+        - name: ref
+          description: "Transaction reference."
+        - name: occured_at
+          description: '{{ doc( "occured_at" ) }}'
+        - name: state
+          description: '{{ doc( "state" ) }}'
+        - name: cvv_provided
+          description: "Identify if CVV is provided."
+        - name: amount
+          description: "The amount that has been charged from the card."
+        - name: country
+          description: '{{ doc( "country" ) }}'
+        - name: currency
+          description: "The three-character ISO currency code."
+        - name: rates
+          description: "The exchange rate used. Funds are settled to you in USD."
+    - name: chargeback_report
+      description: "Raw data from Globepay chargeback report file."
+      columns:
+        - name: external_ref
+          description: '{{ doc( "external_ref" ) }}'
+        - name: status
+          description: "Transaction status."
+        - name: source
+          description: "Source of the transaction."
+        - name: chargeback
+          description: '{{ doc( "chargeback" ) }}'

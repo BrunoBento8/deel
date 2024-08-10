@@ -1,0 +1,50 @@
+version: 2
+
+models:
+  - name: stg_acceptance
+    description: >-
+      Staging table from raw.acceptance_report that contains data with correct types and possible simple cleanups.
+
+    columns:
+      - name: external_ref
+        description: '{{ doc( "external_ref" ) }}'
+        tests:
+          - unique
+          - not_null
+
+      - name: status
+        description: "Transaction status."
+
+      - name: source
+        description: "Source of the transaction."
+
+      - name: ref
+        description: "Transaction reference."
+        tests:
+          - unique
+          - not_null
+
+      - name: occured_at
+        description: '{{ doc( "occured_at" ) }}'
+
+      - name: state
+        description: '{{ doc( "state" ) }}'
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['ACCEPTED', 'DECLINED']
+
+      - name: cvv_provided
+        description: "Identify if CVV is provided."
+
+      - name: amount
+        description: "The amount that has been charged from the card."
+
+      - name: country
+        description: '{{ doc( "country" ) }}'
+
+      - name: currency
+        description: "The three-character ISO currency code."
+
+      - name: rates
+        description: "The exchange rate used. Funds are settled to you in USD."

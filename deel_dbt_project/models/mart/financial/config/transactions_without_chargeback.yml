@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: transactions_without_chargeback
+    description: "Transactions that have missing chargeback data."
+
+    columns:
+      - name: transaction_id
+        description: '{{ doc( "external_ref" ) }}'

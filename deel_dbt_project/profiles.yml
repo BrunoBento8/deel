@@ -1,0 +1,11 @@
+deel_dbt_project:
+  target: default
+  outputs:
+    default:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: '1234'
+      port: 5432
+      dbname: postgres # or database instead of dbname
+      schema: public

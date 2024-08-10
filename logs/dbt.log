@@ -1,0 +1,117 @@
+[0m17:41:39.624799 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDECAC2890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDECA9D3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CDECE47410>]}
+
+
+============================== 17:41:39.629338 | dcf00ae3-c1c6-4d8a-9ddc-52742e79f17a ==============================
+[0m17:41:39.629338 [info ] [MainThread]: Running with dbt=1.6.0
+[0m17:41:39.630332 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\bruno\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:42:03.049083 [debug] [MainThread]: Starter project path: C:\Users\bruno\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m17:42:03.105383 [info ] [MainThread]: 
+Your new dbt project "dell_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:42:03.106889 [info ] [MainThread]: Setting up your profile.
+[0m17:45:47.515122 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024312A60790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024312A600D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024312A603D0>]}
+
+
+============================== 17:45:47.518986 | 0f873fa2-0ca4-45cc-9fca-a4645fe1fa36 ==============================
+[0m17:45:47.518986 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:45:47.519971 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\bruno\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:45:59.714683 [debug] [MainThread]: Starter project path: C:\Users\bruno\OneDrive\Documentos\deel-test\venv\Lib\site-packages\dbt\include\starter_project
+[0m17:45:59.740364 [info ] [MainThread]: 
+Your new dbt project "deel_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:45:59.741373 [info ] [MainThread]: Setting up your profile.
+[0m17:45:59.746870 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m17:45:59.748877 [debug] [MainThread]: Command `dbt init` failed at 17:45:59.748877 after 12.29 seconds
+[0m17:45:59.748877 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002430C80DB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024312AA4150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024312AA4250>]}
+[0m17:45:59.749876 [debug] [MainThread]: Flushing usage events
+[0m17:52:04.157585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF3D680890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF3D680950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF3D680290>]}
+
+
+============================== 17:52:04.161592 | eb8a399a-0f11-4d03-a0fd-b54056d44528 ==============================
+[0m17:52:04.161592 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:52:04.162194 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\bruno\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:52:04.185798 [info ] [MainThread]: dbt version: 1.8.5
+[0m17:52:04.185798 [info ] [MainThread]: python version: 3.11.4
+[0m17:52:04.187304 [info ] [MainThread]: python path: C:\Users\bruno\OneDrive\Documentos\deel-test\venv\Scripts\python.exe
+[0m17:52:04.187304 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m17:52:04.192313 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.spark'
+[0m17:52:04.194311 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.spark'
+[0m17:52:04.196323 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.duckdb'
+[0m17:52:04.198848 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.spark'
+[0m17:52:04.200840 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.spark'
+[0m17:52:04.205370 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m17:52:04.206371 [info ] [MainThread]: Using profiles dir at C:\Users\bruno\.dbt
+[0m17:52:04.206371 [info ] [MainThread]: Using profiles.yml file at C:\Users\bruno\.dbt\profiles.yml
+[0m17:52:04.207383 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\bruno\OneDrive\Documentos\deel-test\deel\dbt_project.yml
+[0m17:52:04.207383 [info ] [MainThread]: Configuration:
+[0m17:52:04.208512 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:52:04.208512 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:52:04.209510 [info ] [MainThread]: Required dependencies:
+[0m17:52:04.209510 [debug] [MainThread]: Executing "git --help"
+[0m17:52:04.239986 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:52:04.239986 [debug] [MainThread]: STDERR: "b''"
+[0m17:52:04.240983 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:52:04.241986 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:52:04.242984 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:52:04.243983 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "dbt_emr", target "dev" invalid: Runtime Error
+    Could not find adapter type spark!
+
+Runtime Error
+  Credentials in profile "dbt_spark_test", target "dev" invalid: Runtime Error
+    Could not find adapter type spark!
+
+Runtime Error
+  Credentials in profile "duckdbdbt", target "dev" invalid: Runtime Error
+    Could not find adapter type duckdb!
+
+Runtime Error
+  Credentials in profile "emr_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type spark!
+
+Runtime Error
+  Credentials in profile "emr_dbt_spark", target "dev" invalid: Runtime Error
+    Could not find adapter type spark!
+
+Runtime Error
+  Credentials in profile "projeto_dbt", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m17:52:04.244999 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\bruno\OneDrive\Documentos\deel-test\deel\dbt_project.yml> not found
+
+[0m17:52:04.245987 [debug] [MainThread]: Command `dbt debug` failed at 17:52:04.245987 after 0.15 seconds
+[0m17:52:04.245987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF373FDB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF373F1D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF373F1DD0>]}
+[0m17:52:04.247494 [debug] [MainThread]: Flushing usage events

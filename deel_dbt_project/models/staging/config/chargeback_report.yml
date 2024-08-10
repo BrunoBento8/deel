@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_chargeback
+    description: >-
+      Staging table from raw.chargeback_report that contains data with correct types and possible simple cleanups.
+
+    columns:
+      - name: external_ref
+        description: '{{ doc( "external_ref" ) }}'
+        tests:
+          - unique
+          - not_null
+
+      - name: status
+        description: "Transaction status."
+
+      - name: source
+        description: "Source of the transaction."
+
+      - name: chargeback
+        description: '{{ doc( "chargeback" ) }}'
+        tests: 
+              - not_null
