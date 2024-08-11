@@ -13,7 +13,7 @@ Within the [models](deel_dbt_project/models/) folder, we have three zones classi
 
 - [marts](deel_dbt_project/models/marts/): Where relationships are built between any tables, considering the analyst's needs. The marts are divided into schemas that concentrate specific information.
 
-![alt text](deel_dbt_project/deel_dbt_project/architecture.png)
+![alt text](deel_dbt_project/architecture.png)
 
 Within each zone, there are two folders:
   
