@@ -20,7 +20,7 @@ with structured_acceptance as (
 -- Calculating quantity of acceptances each day
 acceptance_numbers as (
 	select
-	    date_trunc('day', occured_at) as transation_day,
+	    date_trunc('day', occurred_at) as transation_day,
 	    sum(case when state = 'accepted' then 1 else 0 end) as total_acceptances,
 	    count(*) as total_transations
 	from

@@ -18,12 +18,12 @@ select
     status::BOOLEAN as status,
     source::varchar as source,
     ref::varchar as ref,
-    date_time::timestamp as occured_at,
+    date_time::timestamp as occurred_at,
     lower(state)::varchar as state,
     cvv_provided::BOOLEAN as cvv_provided,
     amount::float as amount,
     country::varchar as country,
     currency::varchar as currency,
-    rates::variant  as rates
+    PARSE_JSON(rates)::variant  as rates
 from
     raw_data

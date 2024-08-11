@@ -14,7 +14,7 @@ models:
       - name: is_chargeback
         description: '{{ doc( "chargeback" ) }}'
 
-      - name: occured_at
+      - name: occurred_at
         description: '{{ doc( "occured_at" ) }}'
 
       - name: state
@@ -35,23 +35,23 @@ models:
       - name: rates
         description: "The exchange rate used. Funds are settled to you in USD."
       
-      - name: eur_rate
+      - name: eur
         description: "The exchange rate used is in EUR."
 
-      - name: gbp_rate
+      - name: gbp
         description: "The exchange rate used is in GBP."
       
-      - name: mxn_rate
+      - name: mxn
         description: "The exchange rate used is in MXN."
 
-      - name: sgd_rate
+      - name: sgd
         description: "The exchange rate used is in SGD."
       
-      - name: usd_rate
+      - name: usd
         description: "The exchange rate used is in USD."
 
-      - name: aud_rate
+      - name: aud
         description: "The exchange rate used is in AUD."
       
-      - name: cad_rate
+      - name: cad
         description: "The exchange rate used is in CAD."
