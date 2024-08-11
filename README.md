@@ -4,22 +4,22 @@
 ### Data exploration
 The files contain a key that can be related to each other in a 1:1 relationship. Both have 5,430 records spanning over six months, between December 31, 2018, and June 30, 2019. For more information about column descriptions, read the table documentation.
 
-Within the [models](/models/) folder, we have three zones classified as staging, intermediate, and marts.
+Within the [models](deel_dbt_project/models/) folder, we have three zones classified as staging, intermediate, and marts.
 
 ### Zones
-- [staging](models/staging/): Where JSON is broken down into columns, data is tabulated, and SQLs are organized to materialize views and tables that will serve as the database foundation for relationships in the intermediate zone. 
+- [staging](deel_dbt_project/models/staging/): Where JSON is broken down into columns, data is tabulated, and SQLs are organized to materialize views and tables that will serve as the database foundation for relationships in the intermediate zone. 
  
-- [intermediate](models/intermediate/): Where grouping and relationships of tables, views, and data originating from staging zone occur.
+- [intermediate](deel_dbt_project/models/intermediate/): Where grouping and relationships of tables, views, and data originating from staging zone occur.
 
-- [marts](models/marts/): Where relationships are built between any tables, considering the analyst's needs. The marts are divided into schemas that concentrate specific information.
+- [marts](deel_dbt_project/models/marts/): Where relationships are built between any tables, considering the analyst's needs. The marts are divided into schemas that concentrate specific information.
 
-![alt text](deel_dbt_project/architecture.png)
+![alt text](deel_dbt_project/deel_dbt_project/architecture.png)
 
 Within each zone, there are two folders:
   
-  - [config](/models/staging/config/) ->  Where the YML configuration files for each table are located. 
+  - [config](deel_dbt_project//models/staging/config/) ->  Where the YML configuration files for each table are located. 
  
-  - [sql](/models/staging/sql/) -> Where the SQL files for querying and building each table are located.
+  - [sql](deel_dbt_project//models/staging/sql/) -> Where the SQL files for querying and building each table are located.
 
 ### Linage graph:
 ![alt text](deel_dbt_project/dbt-dag.png)
