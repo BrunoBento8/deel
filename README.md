@@ -25,7 +25,7 @@ Within each zone, there are two folders:
 ![alt text](deel_dbt_project/dbt-dag.png)
 
 ### Dashboard link:
-[text](https://lookerstudio.google.com/reporting/9e7aba23-0ba4-4b9b-b036-36f0c891aa33)
+[Dashboard](https://lookerstudio.google.com/reporting/9e7aba23-0ba4-4b9b-b036-36f0c891aa33)
 
 Sugestions:
 * A line chart is better for tracking the acceptance rate, as it is necessary to observe trends over time.
