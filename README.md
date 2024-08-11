@@ -35,4 +35,4 @@ Sugestions:
 ### Note:
 If rates are required as structured data, they are available in the table intermediate.acceptance_with_chargeback. 
 Should the column change, it will be detected and materialized with the new exchange rate.
-The logic it's in (/macros/currency_rates.sql)
+The logic it's in [macro](/macros/currency_rates.sql)
