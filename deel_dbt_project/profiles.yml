@@ -2,10 +2,10 @@ deel_dbt_project:
   target: default
   outputs:
     default:
-      account: cuuszyb-wi62825
+      account: 
       type: snowflake
       user: dbt
-      password: 'dbtPassword123'
+      password: 
       role: transform
       database: DEEL_TEST
       warehouse: COMPUTE_WH
