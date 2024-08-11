@@ -32,7 +32,7 @@ models:
         tests:
           - not_null
           - accepted_values:
-              values: ['ACCEPTED', 'DECLINED']
+              values: ['accepted', 'declined']
 
       - name: cvv_provided
         description: "Identify if CVV is provided."

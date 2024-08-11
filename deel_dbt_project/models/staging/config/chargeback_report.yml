@@ -18,7 +18,7 @@ models:
       - name: source
         description: "Source of the transaction."
 
-      - name: chargeback
+      - name: is_chargeback
         description: '{{ doc( "chargeback" ) }}'
         tests: 
-              - not_null
+            - not_null
