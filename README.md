@@ -7,9 +7,9 @@ The files contain a key that can be related to each other in a 1:1 relationship.
 Within the [models](deel_dbt_project/models/) folder, we have three zones classified as staging, intermediate, and marts.
 
 ### Zones
-- [staging](deel_dbt_project/models/staging/): Where JSON is broken down into columns, data is tabulated, and SQLs are organized to materialize views and tables that will serve as the database foundation for relationships in the intermediate zone. 
+- [staging](deel_dbt_project/models/staging/): Where data is tabulated, and SQLs are organized to materialize views and tables that will serve as the database foundation for relationships in the intermediate zone. 
  
-- [intermediate](deel_dbt_project/models/intermediate/): Where grouping and relationships of tables, views, and data originating from staging zone occur.
+- [intermediate](deel_dbt_project/models/intermediate/): Where JSON is broken down into columns, grouping and relationships of tables, views, and data originating from staging zone occur.
 
 - [marts](deel_dbt_project/models/marts/): Where relationships are built between any tables, considering the analyst's needs. The marts are divided into schemas that concentrate specific information.
 
